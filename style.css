@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("./media/bg.png");
+    background-repeat: repeat;
+    background-position: fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 23px;
+}
+.box {
+    margin-top: 20%;
+    background-color: white;
+    width: fit-content;
+    padding: 40px 20px 40px 20px;
+    border-radius: 15px;
+    border: rgb(48, 48, 48) 5px solid;
+}
+.date-picker {
+    margin: 0px 0px 30px 0px;
+}
+.age-calc {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.age-box {
+    margin: 0px 5px 0px 5px;
+}
+.p {
+    margin: 0;
+    padding: 0;
+}
+#datePicker {
+    background-color: gray;
+    border: gray;
+    width: 110px;
+    height: 35px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+hr {
+    margin: 0 0 5px 0;
+}
